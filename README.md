@@ -8,8 +8,7 @@ before it is allowed to be.
 **What is here:** our design and production work — how the project is planned,
 how two people divide and sequence it, what has been built, and who built it.
 **What is not here:** the game's code, its assets, its story material, or any
-third-party files. None of that is ours to publish, and some of it is not ours
-at all.
+third-party files. None of that is ours to publish.
 
 ![Two swimlanes of real tasks, one per person, ordered by dependency with handoffs marked between the lanes; below them, the four-step loop every task passes through: brief, AI agent, owner assembles, owner tests](progress/workflow.svg)
 
@@ -62,7 +61,7 @@ meeting.
 
 - **Concept and case design**, with Victoria.
 - **Environment blockout** — the district the prototype takes place in.
-- **Lighting and colour grade** — the noir look of the prototype is hers.
+- **Lighting and colour grade** — the noir look of the prototype.
 - **The clue data model** — the structure that lets clues be authored as data
   rather than written into code.
 - **The clue inventory** — what the player collects and can look back at.
@@ -98,7 +97,7 @@ stated plainly rather than left to be assumed:
 
 | | |
 |---|---|
-| **Playable prototype** | Private build, shared on request. Not published |
+| **Playable prototype** | Private build, Not published |
 | **Code** | AI-written throughout, directed by us |
 | **Art** | Concept stage. Blockout and style tests exist; nothing final |
 | **Rights** | Permission from the author is **pending**. Non-commercial; nothing is distributed until it is granted |
