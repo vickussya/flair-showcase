@@ -1,0 +1,18 @@
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Raw screen captures. Compress to .mp4 or .gif before committing -- a raw
+# capture is tens of megabytes and this repository should stay cheap to clone.
+*.mkv
+*.avi
+*.mov
+
+# Nothing from the private repository belongs here. These patterns are a
+# backstop, not a substitute for checking what you add.
+*.fbx
+*.blend
+*.unity
+*.prefab
+*.cs
