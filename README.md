@@ -11,6 +11,12 @@ how two people divide and sequence it, what has been built, and who built it.
 third-party files. None of that is ours to publish, and some of it is not ours
 at all.
 
+![Two swimlanes of real tasks, one per person, ordered by dependency with handoffs marked between the lanes; below them, the four-step loop every task passes through: brief, AI agent, owner assembles, owner tests](progress/workflow.svg)
+
+*How the work is planned and handed off — the task system **Victoria** designed,
+drawn from the real board with real tasks and real dependencies.
+[WORKFLOW.md](WORKFLOW.md) is the written version.*
+
 ---
 
 ## The project
@@ -61,7 +67,17 @@ meeting.
   rather than written into code.
 - **The clue inventory** — what the player collects and can look back at.
 - **The 2D vision style guide** and its test frames, which gate every vision
-  either of us draws. See [progress/](progress/).
+  either of us draws — below.
+
+### The 2D style, so far
+
+The visions are hand-drawn in three colours only: black `#120417`, white
+`#ffffff`, blood-red `#b60c28`. **Leta** drew these to settle how the red is
+allowed to behave before anyone draws a finished vision.
+
+| <img src="progress/style-frames/style-frame-01-object-hint.png" alt="A wine glass on a white table against black and red, the wine itself filled in red" width="260"> | <img src="progress/style-frames/style-frame-02-person-hint.png" alt="A flat black silhouette of a figure standing in a red archway, cut by a white band" width="260"> | <img src="progress/style-frames/style-frame-03-gradient-test.png" alt="A sweeping red ribbon with gradient shading and a white highlight line on black" width="260"> |
+|---|---|---|
+| **Object hint** — red fills the highlighted object itself. | **Person hint** — the figure stays a flat silhouette; red marks the space around her. | **Gradient test** — whether shading can add depth without breaking the flat look. |
 
 ## How it's built
 
