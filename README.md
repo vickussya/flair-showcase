@@ -26,8 +26,8 @@ The investigation runs on a clue system: examine the right things, in the right
 order, and the case opens up — go wrong and it costs you.
 
 It is an unofficial, **non-commercial adaptation of a contemporary novel**. We
-are not naming the book, its author, or anything from it here, because we have
-asked for permission and have not yet had an answer.
+don’t reproduce the novel’s text, characters, places or the author’s name here.We
+have asked for author's permission and have not yet had an answer.
 
 We build it on our own initiative, in our own time. It is **not** a university or
 coursework project. Its purpose is a test: **can two people who are not
