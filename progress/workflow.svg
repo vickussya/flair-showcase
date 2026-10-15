@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 690" width="1200" role="img"
+     aria-labelledby="svgTitle svgDesc" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title id="svgTitle">How the work is planned and handed off</title>
+  <desc id="svgDesc">Two swimlanes, one per person, showing real tasks from August and September 2026
+  ordered by dependency, with handoffs between the two owners; and below, the four-step loop each
+  task passes through. The task system and this diagram were designed by Victoria.</desc>
+
+  <defs>
+    <marker id="arrowInk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#120417"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b60c28"/>
+    </marker>
+    <style>
+      .h1   { font-size: 21px; font-weight: 700; fill: #120417; }
+      .sub  { font-size: 13px; fill: #5d5760; }
+      .ph   { font-size: 13px; font-weight: 700; fill: #120417; letter-spacing: .08em; }
+      .lane { font-size: 11.5px; font-weight: 700; letter-spacing: .1em; }
+      .task { font-size: 12px; font-weight: 600; fill: #120417; }
+      .meta { font-size: 10.5px; fill: #6d666f; }
+      .step { font-size: 13px; font-weight: 700; fill: #120417; }
+      .body { font-size: 11.5px; fill: #4a444d; }
+      .note { font-size: 11.5px; fill: #5d5760; }
+      .foot { font-size: 11px; fill: #6d666f; }
+      .flow { stroke: #120417; stroke-width: 1.6; fill: none; }
+      .hand { stroke: #b60c28; stroke-width: 1.6; fill: none; stroke-dasharray: 5 4; }
+      .box  { fill: #ffffff; stroke: #d8d2d9; stroke-width: 1; }
+      .band { fill: #f4f1f4; stroke: #e6e1e7; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="690" fill="#fbf9f8"/>
+  <rect x="0.5" y="0.5" width="1199" height="689" fill="none" stroke="#e6e1e7"/>
+
+  <text class="h1" x="40" y="42">How the work is planned and handed off</text>
+  <text class="sub" x="40" y="64">Two owners, one board ordered by dependency, one loop per task. Boxes are real tasks; horizontal position is order of work, not time to scale.</text>
+
+  <!-- ============ PANEL 1 : THE BOARD ============ -->
+  <text class="ph" x="40" y="104">1 — THE BOARD</text>
+
+  <rect class="band" x="40" y="116" width="1120" height="96" rx="4"/>
+  <rect class="band" x="40" y="228" width="1120" height="96" rx="4"/>
+  <text class="lane" x="54" y="138" fill="#b60c28">VICTORIA</text>
+  <text class="lane" x="54" y="250" fill="#120417">LETA</text>
+
+  <!-- Victoria's tasks -->
+  <g>
+    <rect class="box" x="170" y="132" width="130" height="56" rx="6"/>
+    <rect x="170" y="132" width="4" height="56" fill="#b60c28"/>
+    <text class="task" x="184" y="152">Repo + project</text>
+    <text class="task" x="184" y="166">setup</text>
+    <text class="meta" x="184" y="180">L · 10 Aug</text>
+
+    <rect class="box" x="322" y="132" width="130" height="56" rx="6"/>
+    <rect x="322" y="132" width="4" height="56" fill="#b60c28"/>
+    <text class="task" x="336" y="152">Vertical slice</text>
+    <text class="meta" x="336" y="180">L · 12 Aug</text>
+
+    <rect class="box" x="474" y="132" width="130" height="56" rx="6"/>
+    <rect x="474" y="132" width="4" height="56" fill="#b60c28"/>
+    <text class="task" x="488" y="152">World + case</text>
+    <text class="task" x="488" y="166">written</text>
+    <text class="meta" x="488" y="180">L · 18 Aug</text>
+
+    <rect class="box" x="778" y="132" width="130" height="56" rx="6"/>
+    <rect x="778" y="132" width="4" height="56" fill="#b60c28"/>
+    <text class="task" x="792" y="152">Clue gate +</text>
+    <text class="task" x="792" y="166">end card</text>
+    <text class="meta" x="792" y="180">M · 29 Aug</text>
+
+    <rect class="box" x="930" y="132" width="130" height="56" rx="6"/>
+    <rect x="930" y="132" width="4" height="56" fill="#b60c28"/>
+    <text class="task" x="944" y="152">Web + Windows</text>
+    <text class="task" x="944" y="166">builds</text>
+    <text class="meta" x="944" y="180">L · 15 Sep</text>
+  </g>
+
+  <!-- Leta's tasks -->
+  <g>
+    <rect class="box" x="474" y="244" width="130" height="56" rx="6"/>
+    <rect x="474" y="244" width="4" height="56" fill="#120417"/>
+    <text class="task" x="488" y="264">2D style guide</text>
+    <text class="meta" x="488" y="292">M · 18 Aug</text>
+
+    <rect class="box" x="626" y="244" width="130" height="56" rx="6"/>
+    <rect x="626" y="244" width="4" height="56" fill="#120417"/>
+    <text class="task" x="640" y="264">Clue data</text>
+    <text class="task" x="640" y="278">model</text>
+    <text class="meta" x="640" y="292">M · 19 Aug</text>
+
+    <rect class="box" x="778" y="244" width="130" height="56" rx="6"/>
+    <rect x="778" y="244" width="4" height="56" fill="#120417"/>
+    <text class="task" x="792" y="264">Environment</text>
+    <text class="task" x="792" y="278">blockout</text>
+    <text class="meta" x="792" y="292">L · 28 Aug</text>
+
+    <rect class="box" x="930" y="244" width="130" height="56" rx="6"/>
+    <rect x="930" y="244" width="4" height="56" fill="#120417"/>
+    <text class="task" x="944" y="264">Lighting +</text>
+    <text class="task" x="944" y="278">grade</text>
+    <text class="meta" x="944" y="292">M · 29 Aug</text>
+  </g>
+
+  <!-- same-owner ordering -->
+  <path class="flow" d="M300,160 L316,160" marker-end="url(#arrowInk)"/>
+  <path class="flow" d="M452,160 L468,160" marker-end="url(#arrowInk)"/>
+  <path class="flow" d="M604,160 L772,160" marker-end="url(#arrowInk)"/>
+  <path class="flow" d="M908,160 L924,160" marker-end="url(#arrowInk)"/>
+  <path class="flow" d="M604,272 L620,272" marker-end="url(#arrowInk)"/>
+  <path class="flow" d="M756,272 L772,272" marker-end="url(#arrowInk)"/>
+  <path class="flow" d="M908,272 L924,272" marker-end="url(#arrowInk)"/>
+
+  <!-- handoffs between owners, routed through the gutter -->
+  <path class="hand" d="M452,172 L460,172 Q468,172 468,180 L468,208 Q468,216 476,216 L608,216 Q616,216 616,224 L616,264 Q616,272 624,272"
+        marker-end="url(#arrowRed)"/>
+  <path class="hand" d="M690,244 L690,228 Q690,216 702,216 L760,216 Q770,216 770,206 L770,170 Q770,160 778,160"
+        marker-end="url(#arrowRed)"/>
+  <path class="hand" d="M995,244 L995,194" marker-end="url(#arrowRed)"/>
+
+  <!-- legend -->
+  <g>
+    <path class="flow" d="M44,352 L74,352" marker-end="url(#arrowInk)"/>
+    <text class="note" x="82" y="356">same person, next in order</text>
+    <path class="hand" d="M284,352 L314,352" marker-end="url(#arrowRed)"/>
+    <text class="note" x="322" y="356">handoff: one person's output unblocks the other</text>
+    <text class="note" x="700" y="356">S / M / L = size, estimated before the date was set</text>
+  </g>
+
+  <!-- ============ PANEL 2 : INSIDE ONE TASK ============ -->
+  <text class="ph" x="40" y="420">2 — WHAT HAPPENS INSIDE ONE TASK</text>
+
+  <g>
+    <rect class="box" x="40" y="440" width="258" height="92" rx="6"/>
+    <text class="step" x="58" y="466">1 · Brief</text>
+    <text class="body" x="58" y="488">Written from the design docs:</text>
+    <text class="body" x="58" y="504">what it must do, and why.</text>
+    <text class="body" x="58" y="520">Owned by one of us, never both.</text>
+
+    <rect class="box" x="328" y="440" width="258" height="92" rx="6"/>
+    <text class="step" x="346" y="466">2 · AI agent</text>
+    <text class="body" x="346" y="488">Writes the C# and the exact</text>
+    <text class="body" x="346" y="504">editor steps. It cannot open</text>
+    <text class="body" x="346" y="520">the engine or run the game.</text>
+
+    <rect class="box" x="616" y="440" width="258" height="92" rx="6"/>
+    <text class="step" x="634" y="466">3 · Owner assembles</text>
+    <text class="body" x="634" y="488">Follows the steps in the engine:</text>
+    <text class="body" x="634" y="504">wires scripts to objects, builds</text>
+    <text class="body" x="634" y="520">placeholders, sets the scene up.</text>
+
+    <rect class="box" x="904" y="440" width="256" height="92" rx="6"/>
+    <text class="step" x="922" y="466">4 · Owner tests</text>
+    <text class="body" x="922" y="488">Plays it and reports what is</text>
+    <text class="body" x="922" y="504">wrong. Nothing is done until</text>
+    <text class="body" x="922" y="520">the owner has played it.</text>
+  </g>
+
+  <path class="flow" d="M298,486 L322,486" marker-end="url(#arrowInk)"/>
+  <path class="flow" d="M586,486 L610,486" marker-end="url(#arrowInk)"/>
+  <path class="flow" d="M874,486 L898,486" marker-end="url(#arrowInk)"/>
+  <path class="hand" d="M1032,532 L1032,560 Q1032,570 1022,570 L467,570 Q457,570 457,560 L457,538"
+        marker-end="url(#arrowRed)"/>
+  <text class="note" x="690" y="588">repeats until it works</text>
+
+  <text class="note" x="40" y="616">Whatever gets decided along the way goes back into the design docs, with the date — a decision that only exists in a chat is lost.</text>
+
+  <text class="foot" x="40" y="658">The task system and this diagram: Victoria. The tasks shown are real, from Aug–Sep 2026.</text>
+  <text class="foot" x="40" y="674">All C# referenced in step 2 is AI-written, from our specifications. Neither of us is a programmer.</text>
+</svg>
